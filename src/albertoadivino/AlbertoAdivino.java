@@ -18,8 +18,9 @@ public class AlbertoAdivino {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-          int n = 0,cont = 0;
-        int x = (int) (500 *Math.random());
+          int n =0,cont = 0, min=10, max=50;
+          int rango = (max-min) + 1;
+        int x = (int) ((Math.random()*rango ) + min);
         //System.out.print(x);
         Scanner sc = new Scanner(System.in);
         do {
